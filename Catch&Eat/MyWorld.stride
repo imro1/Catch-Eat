@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="MyWorld" extends="World" extends-java="World" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports>
+        <import target="java.util.*" enable="true"/>
+        <import target="greenfoot.*" enable="true"/>
+    </imports>
+    <implements/>
+    <fields/>
+    <constructors>
+        <constructor access="public" enable="true">
+            <javadoc xml:space="preserve">Constructor for objects of class MyWorld.</javadoc>
+            <params/>
+            <throws/>
+            <delegate target="super" params="600,400,1" params-java="600, 400, 1"/>
+            <body>
+                <call expression="prepare()" expression-java="prepare()" enable="true"/>
+            </body>
+        </constructor>
+    </constructors>
+    <methods>
+        <method access="private" type="void" type-java="void" name="prepare" enable="true">
+            <javadoc xml:space="preserve">Prepare the world for the start of the program.
+That is: create the initial objects and add them to the world.</javadoc>
+            <params/>
+            <throws/>
+            <body>
+                <variable type="graffiti" type-java="graffiti" name="graffiti" value="new graffiti()" value-java=" new graffiti()" enable="true"/>
+                <call expression="addObject(graffiti,485,221)" expression-java="addObject(graffiti, 485, 221)" enable="true"/>
+                <variable type="spiderweb" type-java="spiderweb" name="spiderweb" value="new spiderweb()" value-java=" new spiderweb()" enable="true"/>
+                <call expression="addObject(spiderweb,227,94)" expression-java="addObject(spiderweb, 227, 94)" enable="true"/>
+                <variable type="spiderweb" type-java="spiderweb" name="spiderweb2" value="new spiderweb()" value-java=" new spiderweb()" enable="true"/>
+                <call expression="addObject(spiderweb2,280,110)" expression-java="addObject(spiderweb2, 280, 110)" enable="true"/>
+                <variable type="spiderweb" type-java="spiderweb" name="spiderweb3" value="new spiderweb()" value-java=" new spiderweb()" enable="true"/>
+                <call expression="addObject(spiderweb3,63,248)" expression-java="addObject(spiderweb3, 63, 248)" enable="true"/>
+                <variable type="spiderweb" type-java="spiderweb" name="spiderweb4" value="new spiderweb()" value-java=" new spiderweb()" enable="true"/>
+                <call expression="addObject(spiderweb4,53,158)" expression-java="addObject(spiderweb4, 53, 158)" enable="true"/>
+                <variable type="spiderweb" type-java="spiderweb" name="spiderweb5" value="new spiderweb()" value-java=" new spiderweb()" enable="true"/>
+                <call expression="addObject(spiderweb5,100,108)" expression-java="addObject(spiderweb5, 100, 108)" enable="true"/>
+                <variable type="spiderweb" type-java="spiderweb" name="spiderweb6" value="new spiderweb()" value-java=" new spiderweb()" enable="true"/>
+                <call expression="addObject(spiderweb6,455,70)" expression-java="addObject(spiderweb6, 455, 70)" enable="true"/>
+                <variable type="spiderweb" type-java="spiderweb" name="spiderweb7" value="new spiderweb()" value-java=" new spiderweb()" enable="true"/>
+                <call expression="addObject(spiderweb7,479,303)" expression-java="addObject(spiderweb7, 479, 303)" enable="true"/>
+                <variable type="spiderweb" type-java="spiderweb" name="spiderweb8" value="new spiderweb()" value-java=" new spiderweb()" enable="true"/>
+                <call expression="addObject(spiderweb8,467,351)" expression-java="addObject(spiderweb8, 467, 351)" enable="true"/>
+                <variable type="spiderweb" type-java="spiderweb" name="spiderweb9" value="new spiderweb()" value-java=" new spiderweb()" enable="true"/>
+                <call expression="addObject(spiderweb9,395,346)" expression-java="addObject(spiderweb9, 395, 346)" enable="true"/>
+                <variable type="spiderweb" type-java="spiderweb" name="spiderweb10" value="new spiderweb()" value-java=" new spiderweb()" enable="true"/>
+                <call expression="addObject(spiderweb10,238,344)" expression-java="addObject(spiderweb10, 238, 344)" enable="true"/>
+                <variable type="spiderweb" type-java="spiderweb" name="spiderweb11" value="new spiderweb()" value-java=" new spiderweb()" enable="true"/>
+                <call expression="addObject(spiderweb11,96,289)" expression-java="addObject(spiderweb11, 96, 289)" enable="true"/>
+                <variable type="spiderweb" type-java="spiderweb" name="spiderweb12" value="new spiderweb()" value-java=" new spiderweb()" enable="true"/>
+                <call expression="addObject(spiderweb12,511,80)" expression-java="addObject(spiderweb12, 511, 80)" enable="true"/>
+                <variable type="spiderweb" type-java="spiderweb" name="spiderweb13" value="new spiderweb()" value-java=" new spiderweb()" enable="true"/>
+                <call expression="addObject(spiderweb13,289,213)" expression-java="addObject(spiderweb13, 289, 213)" enable="true"/>
+                <variable type="spiderweb" type-java="spiderweb" name="spiderweb14" value="new spiderweb()" value-java=" new spiderweb()" enable="true"/>
+                <call expression="addObject(spiderweb14,179,173)" expression-java="addObject(spiderweb14, 179, 173)" enable="true"/>
+                <variable type="spiderweb" type-java="spiderweb" name="spiderweb15" value="new spiderweb()" value-java=" new spiderweb()" enable="true"/>
+                <call expression="addObject(spiderweb15,41,5)" expression-java="addObject(spiderweb15, 41, 5)" enable="true"/>
+                <variable type="spiderweb" type-java="spiderweb" name="spiderweb16" value="new spiderweb()" value-java=" new spiderweb()" enable="true"/>
+                <call expression="addObject(spiderweb16,302,34)" expression-java="addObject(spiderweb16, 302, 34)" enable="true"/>
+                <variable type="spiderweb" type-java="spiderweb" name="spiderweb17" value="new spiderweb()" value-java=" new spiderweb()" enable="true"/>
+                <call expression="addObject(spiderweb17,385,132)" expression-java="addObject(spiderweb17, 385, 132)" enable="true"/>
+                <variable type="spiderweb" type-java="spiderweb" name="spiderweb18" value="new spiderweb()" value-java=" new spiderweb()" enable="true"/>
+                <call expression="addObject(spiderweb18,546,353)" expression-java="addObject(spiderweb18, 546, 353)" enable="true"/>
+                <variable type="spiderweb" type-java="spiderweb" name="spiderweb19" value="new spiderweb()" value-java=" new spiderweb()" enable="true"/>
+                <call expression="addObject(spiderweb19,80,367)" expression-java="addObject(spiderweb19, 80, 367)" enable="true"/>
+                <variable type="graffiti2" type-java="graffiti2" name="graffiti2" value="new graffiti2()" value-java=" new graffiti2()" enable="true"/>
+                <call expression="addObject(graffiti2,96,253)" expression-java="addObject(graffiti2, 96, 253)" enable="true"/>
+                <variable type="fly" type-java="fly" name="fly" value="new fly()" value-java=" new fly()" enable="true"/>
+                <call expression="addObject(fly,339,152)" expression-java="addObject(fly, 339, 152)" enable="true"/>
+                <call expression="spiderweb2.setLocation(285,98)" expression-java="spiderweb2.setLocation(285, 98)" enable="true"/>
+                <variable type="fly" type-java="fly" name="fly2" value="new fly()" value-java=" new fly()" enable="true"/>
+                <call expression="addObject(fly2,285,98)" expression-java="addObject(fly2, 285, 98)" enable="true"/>
+                <variable type="fly" type-java="fly" name="fly3" value="new fly()" value-java=" new fly()" enable="true"/>
+                <call expression="addObject(fly3,398,70)" expression-java="addObject(fly3, 398, 70)" enable="true"/>
+                <variable type="fly" type-java="fly" name="fly4" value="new fly()" value-java=" new fly()" enable="true"/>
+                <call expression="addObject(fly4,468,124)" expression-java="addObject(fly4, 468, 124)" enable="true"/>
+                <call expression="spiderweb13.setLocation(268,231)" expression-java="spiderweb13.setLocation(268, 231)" enable="true"/>
+                <variable type="fly" type-java="fly" name="fly5" value="new fly()" value-java=" new fly()" enable="true"/>
+                <call expression="addObject(fly5,268,231)" expression-java="addObject(fly5, 268, 231)" enable="true"/>
+                <variable type="spidah" type-java="spidah" name="spidah" value="new spidah()" value-java=" new spidah()" enable="true"/>
+                <call expression="addObject(spidah,320,280)" expression-java="addObject(spidah, 320, 280)" enable="true"/>
+            </body>
+        </method>
+    </methods>
+</class>
