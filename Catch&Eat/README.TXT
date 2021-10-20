@@ -5,7 +5,7 @@ Date: 2021/09/12
 
 The demonstration of this project has the purpose to show my programming skills to the class and the teacher. 
 
-Copyright (c) [2021 [Imran Maslianov]
+Copyright (c) [2021 [Imran Maslianov, Hussain Amin]
 
 About: There is only two types of classes(actors) in this, "the spidah" is the actor controlled by the player and "the Fly"'s who's
 movements are randomized by the coding in the computer. The goal as "the spidah" is to eat all of the flies moving around this map. The map 
